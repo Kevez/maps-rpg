@@ -1,8 +1,9 @@
 class Monster {
-    constructor() {
+    constructor(map) {
+        this.map = map;
         this.id = 1;
-        this.name = 'Roberto Carlos';
-        this.imagePath = 'assets/images/wild-rob.png';
+        this.name = 'Frogster';
+        this.imagePath = 'assets/images/monster.png';
         this.hp = 50;
         this.latitude = 54.9561096;
         this.longitude = -1.5977312;
@@ -24,7 +25,7 @@ class Monster {
     add() {
         this.marker = new google.maps.Marker({
             position: this.googleLatLng,
-            map: map,
+            map: this.map,
             icon: './assets/images/monster.png'
         });
 

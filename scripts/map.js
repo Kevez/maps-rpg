@@ -38,7 +38,7 @@ class Map {
     }
 
     addMonster() {
-        this.monster = new Monster();
+        this.monster = new Monster(this.map);
 
         this.monster.set();
         this.monster.add();
