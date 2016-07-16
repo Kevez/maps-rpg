@@ -1,0 +1,11 @@
+{
+  "name": "Riverfall",
+  "version": "0.0.1",
+  "scripts": {
+    "start": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
+}
